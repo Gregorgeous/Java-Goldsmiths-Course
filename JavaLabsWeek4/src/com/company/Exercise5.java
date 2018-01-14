@@ -10,7 +10,7 @@ public class Exercise5 {
     public static void wordOccurrences (String sentence){
         String filteredInput = sentence.trim();
         for (int i = 0; i < filteredInput.length(); i++) {
-            filteredInput[i] == //number for whitespace
+
         }
         String [][] wordsArray;
 
