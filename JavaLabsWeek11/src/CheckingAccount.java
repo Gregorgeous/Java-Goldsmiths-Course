@@ -1,6 +1,6 @@
 public class CheckingAccount extends Account{
     private int numberOfChecksUsed; // stores the number of checks used every month. Starts at zero.
-    private double ATMTransactionFee = 1.00;
+    private double ATMTransactionFee = 1.00; // (Exercise requirement) transaction fee for a normal (atm) withdraw and deposit methods.
     public CheckingAccount(String id, double initialBalance){
         super(id, initialBalance);
     }
