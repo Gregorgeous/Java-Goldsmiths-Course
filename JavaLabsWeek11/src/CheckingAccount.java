@@ -18,6 +18,7 @@ public class CheckingAccount extends Account{
     }
     public void resetChecksUsed(){
         numberOfChecksUsed = 0;
+        System.out.println("Checking account: " + this.id + " -> reset num of checks used");
     }
     public int getChecksUsed(){
         return numberOfChecksUsed;

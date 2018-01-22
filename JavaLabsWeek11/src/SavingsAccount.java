@@ -20,7 +20,10 @@ public class SavingsAccount extends Account {
         balance += amount;
     }
     public double addInterest(double rate){
-//        todo: figure out what's all about
-        return 0;
+        double balance = getBalance();
+        double newBalance = balance + balance*rate;
+        this.balance= newBalance;
+        System.out.println("I added interest to savings account : " + this.id + ". Was: " + balance + ", now is: " + newBalance);
+        return newBalance;
     }
 }
